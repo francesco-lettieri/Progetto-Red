@@ -1,0 +1,79 @@
+:root{
+    --pri: darkred;
+    --sec: #c67f7f;
+    --acc: #ececec;
+}
+
+.title-color{
+    color: var(--pri);
+}
+
+*{
+    font-family: "Rajdhani", sans-serif;
+}
+h1,h2,h3,h4,h5{
+    font-family: "Nova Square", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+
+body{
+background-color: #ececec;
+}
+
+
+.logo-nav{
+    height: 60px;
+    width: 90px;
+}
+
+.header-custom{
+    width: 100%;
+    min-height: 100vh;
+    background: url(./media/mountains2.png),linear-gradient(white, transparent), url(./media/switzerland-862870_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-custom{
+    min-height: 400px;
+    background-image: url(./media/trees2.png);
+    background-position: center;
+   
+}
+
+.container-article{
+    width: 100%;
+}
+
+.img-custom{
+    height: 100px;
+    width: 100px;
+}
+
+.text-custom{
+    font-size: 13px;
+}
+.img-articolo{
+    height: 150px;
+    width: 150px;
+}
+
+.bg-col{
+    background-color: var(--pri);
+}
+
+footer{
+    color: white;
+}
+
+.button-custom{
+    background-color: var(--pri);
+    border: none;
+    color: white;
+}
+.icon-custom{
+   color: var(--pri);
+}
